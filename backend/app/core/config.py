@@ -19,6 +19,7 @@ class Settings(BaseSettings):
     GEMINI_API_KEY: str = ""
     UPLOAD_DIR: str = "uploads"
     SUPABASE_URL: str = ""  # Replaced the secret with the URL
+    REDIS_URL: str = "redis://localhost:6379/0"
 
     class Config:
         env_file = ".env"
