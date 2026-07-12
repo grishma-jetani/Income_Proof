@@ -44,12 +44,15 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-update .env file in the backend directory and add your credentials:
+Update .env file in the backend directory and add your credentials:
+
+```env
 DATABASE_URL=your_database_url_here
 GEMINI_API_KEY=your_gemini_api_key_here
 UPLOAD_DIR=uploads
 SUPABASE_URL=https://[YOUR_PROJECT].supabase.co
 REDIS_URL=redis://localhost:6379/0
+```
 
 Start Redis On Linux (WSL/Ubuntu):
 ```bash
@@ -75,9 +78,12 @@ cd frontend
 npm install
 ```
 Update .env file in the frontend root directory
+
+```env
 VITE_SUPABASE_URL=https://[YOUR_PROJECT].supabase.co
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 VITE_API_URL=http://localhost:8000
+```
 
 Start the frontend:
 ```bash
