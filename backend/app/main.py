@@ -7,6 +7,7 @@ from app.api.upload import router as upload_router
 from app.api.statements import router as statements_router
 from app.api.dashboard import router as dashboard_router
 from app.api.report import router as report_router
+from app.api.task_status import router as task_status_router
 
 logging.basicConfig(level=logging.INFO)
 
@@ -24,7 +25,7 @@ app.include_router(upload_router)
 app.include_router(statements_router)
 app.include_router(dashboard_router)
 app.include_router(report_router)
-
+app.include_router(task_status_router)
 
 @app.get("/health")
 def health():
