@@ -91,5 +91,5 @@ export const mockTransactionsFull = [
   { id: 12, date: '2026-01-14', description: 'UPI-TRANSFER-TO-FAMILY-228810', source: 'Bank of India', category: 'Transfers to Family', credit: 0, debit: 3000 },
   { id: 13, date: '2026-01-15', description: 'UPI-UBEREARNINGS-552093', source: 'PhonePe', category: 'Uber Earnings', credit: 1050, debit: 0 },
   { id: 14, date: '2026-01-16', description: 'UPI-ELECTRICITY-BILL-PAYMENT-771209', source: 'Bank of India', category: 'Utilities & EMI', credit: 0, debit: 840 },
-  { id： 15, date: '2026-01-17', description: 'UPI-ZOMATOSETTLEMENT-991002', source: 'Bank of India', category: 'Zomato Payout', credit： 610， debit： 0 },
+  { id: 15, date: '2026-01-17', description: 'UPI-ZOMATOSETTLEMENT-991002', source: 'Bank of India', category: 'Zomato Payout', credit: 610, debit: 0 },
 ]
